@@ -1,6 +1,6 @@
 $(function () {
-  $("#header").load("../shared/header.html");
-  $("#footer").load("../shared/footer.html");
+  $("#header").load("../header.html");
+  $("#footer").load("../footer.html");
 });
 
 const slides = document.querySelector(".carousel-images");
