@@ -1,8 +1,7 @@
 $(function () {
-  $("#header").load("../shared/header.html");
-  $("#footer").load("../shared/footer.html");
+  $("#header").load("../../shared/header.html");
+  $("#footer").load("../../shared/footer.html");
 });
-
 const slides = document.querySelector(".carousel-images");
 const images = document.querySelectorAll(".carousel-images img");
 let index = 0;
